@@ -32,14 +32,15 @@ export default function Hero() {
           All Case Studies
         </Link>
         <a
-          href="https://github.com/yourname"
+          href="https://github.com/madanp126"
           target="_blank"
           className="text-sm text-slate-400 hover:text-cyan-400"
         >
           GitHub
         </a>
         <a
-          href="https://linkedin.com/in/yourname"
+          href="https://linkedin.com/in/madan-patil-650092227"
+          
           target="_blank"
           className="text-sm text-slate-400 hover:text-cyan-400"
         >
