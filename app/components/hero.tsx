@@ -5,16 +5,16 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="mb-16">
-      <p className="text-sm text-cyan-400">Hi, my name is</p>
-      <h1 className="mt-2 text-4xl font-bold sm:text-5xl">
+    <section className="mb-16 mx-auto w-fit">
+      <p className="text-md text-cyan-400">Hi, my name is</p>
+      <h1 className="mt-2 text-5xl font-bold sm:text-5xl">
         Madan Kumar Patil
       </h1>
-      <h2 className="mt-3 text-2xl font-semibold text-slate-300">
+      <h2 className="mt-3 text-3xl font-semibold text-slate-300">
         Full-Stack Developer
       </h2>
-      <p className="mt-4 max-w-xl text-sm text-slate-400">
-        Building modern web applications with React, Next.js, ASP.NET Core,
+      <p className="mt-4 max-w-xl text-md text-slate-400">
+        Building modern web applications with React, Angular.js, ASP.NET Core,
         and SQL. Focused on clean architecture, performance, and great UX.
       </p>
 

@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-slate-950 text-slate-950">
         <header className="sticky top-0 z-20 border-b border-slate-0 bg-slate-950/20 backdrop-blur">
-          <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+          <nav className="mx-auto flex max-w-full items-center justify-between px-4 py-3">
             <Link href="/" className="text-lg font-semibold">
               Madan Patil
             </Link>
@@ -42,7 +42,7 @@ export default function RootLayout({
             </div>
           </nav>
         </header>
-        <main className="mx-auto max-w-5xl px-4 py-10">{children}</main>
+        <main className="mx-auto max-w-full px-4 py-6">{children}</main>
       </body>
     </html>
   );
